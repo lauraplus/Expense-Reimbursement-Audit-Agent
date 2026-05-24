@@ -1,0 +1,10 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+sqlalchemy>=2.0.0
+pydantic>=2.7.0
+python-multipart>=0.0.9
+alibabacloud_ocr_api20210707>=2.0.0
+alibabacloud_tea_openapi>=0.3.0
+alibabacloud_tea_util>=0.3.0
+pytest>=8.2.0
+httpx>=0.28.0

@@ -1,0 +1,17 @@
+node_modules/
+.next/
+dist/
+build/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+.env.local
+data/*.db
+data/*.png
+data/uploads/*
+!data/uploads/.gitkeep
+logs/
+frontend/.next/
+frontend/node_modules/

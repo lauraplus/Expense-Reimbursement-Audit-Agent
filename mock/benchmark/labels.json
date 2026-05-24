@@ -1,0 +1,639 @@
+{
+  "EXP-TRAFFIC-OVERTIME-TAXI-001": {
+    "decision": "suggested_pass",
+    "reasons": [],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-002": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "专车缺少主管审批"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-003": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "打车时间早于 21:00"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-004": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "申报金额与票据金额不一致"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-005": {
+    "decision": "human_review_required",
+    "reasons": [
+      "OCR 置信度低"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-006": {
+    "decision": "suggested_pass",
+    "reasons": [
+      "有主管审批"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-007": {
+    "decision": "suggested_pass",
+    "reasons": [],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-008": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "专车缺少主管审批"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-009": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "打车时间早于 21:00"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-010": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "申报金额与票据金额不一致"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-011": {
+    "decision": "human_review_required",
+    "reasons": [
+      "OCR 置信度低"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-012": {
+    "decision": "suggested_pass",
+    "reasons": [
+      "有主管审批"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-013": {
+    "decision": "suggested_pass",
+    "reasons": [],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-014": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "专车缺少主管审批"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-015": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "打车时间早于 21:00"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-016": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "申报金额与票据金额不一致"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-017": {
+    "decision": "human_review_required",
+    "reasons": [
+      "OCR 置信度低"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-018": {
+    "decision": "suggested_pass",
+    "reasons": [
+      "有主管审批"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-019": {
+    "decision": "suggested_pass",
+    "reasons": [],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAFFIC-OVERTIME-TAXI-020": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "专车缺少主管审批"
+    ],
+    "policy_ids": [
+      "TRAFFIC-2.1",
+      "TRAFFIC-2.3",
+      "TRAFFIC-2.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-001": {
+    "decision": "suggested_pass",
+    "reasons": [],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-002": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "申报金额与账单金额不一致",
+      "P5 住宿超标"
+    ],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-003": {
+    "decision": "suggested_pass",
+    "reasons": [],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-004": {
+    "decision": "human_review_required",
+    "reasons": [
+      "超标超过 20%"
+    ],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-005": {
+    "decision": "human_review_required",
+    "reasons": [
+      "OCR 置信度低"
+    ],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-HOTEL-006": {
+    "decision": "suggested_pass",
+    "reasons": [
+      "小幅超标有主管审批"
+    ],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-007": {
+    "decision": "suggested_pass",
+    "reasons": [],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-008": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "申报金额与账单金额不一致",
+      "P5 住宿超标"
+    ],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-009": {
+    "decision": "suggested_pass",
+    "reasons": [],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-010": {
+    "decision": "human_review_required",
+    "reasons": [
+      "超标超过 20%"
+    ],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-011": {
+    "decision": "human_review_required",
+    "reasons": [
+      "OCR 置信度低"
+    ],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-012": {
+    "decision": "suggested_pass",
+    "reasons": [
+      "小幅超标有主管审批"
+    ],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-013": {
+    "decision": "suggested_pass",
+    "reasons": [],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-014": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "申报金额与账单金额不一致",
+      "P5 住宿超标"
+    ],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-015": {
+    "decision": "suggested_pass",
+    "reasons": [],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-016": {
+    "decision": "human_review_required",
+    "reasons": [
+      "超标超过 20%"
+    ],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-017": {
+    "decision": "human_review_required",
+    "reasons": [
+      "OCR 置信度低"
+    ],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-018": {
+    "decision": "suggested_pass",
+    "reasons": [
+      "小幅超标有主管审批"
+    ],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-019": {
+    "decision": "suggested_pass",
+    "reasons": [],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TRAVEL-HOTEL-020": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "申报金额与账单金额不一致",
+      "P5 住宿超标"
+    ],
+    "policy_ids": [
+      "HOTEL-6.2",
+      "HOTEL-6.4",
+      "HOTEL-6.5"
+    ]
+  },
+  "EXP-TEAM-BUILDING-001": {
+    "decision": "suggested_pass",
+    "reasons": [],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-002": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "跨城团建缺少 VP 审批"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-003": {
+    "decision": "human_review_required",
+    "reasons": [
+      "高金额强制人工复核",
+      "人均超标"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-004": {
+    "decision": "human_review_required",
+    "reasons": [
+      "预算余额不足"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-005": {
+    "decision": "human_review_required",
+    "reasons": [
+      "OCR 置信度低"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-006": {
+    "decision": "human_review_required",
+    "reasons": [
+      "跨城团建有 VP 审批但金额超 5000"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-007": {
+    "decision": "suggested_pass",
+    "reasons": [],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-008": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "跨城团建缺少 VP 审批"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-009": {
+    "decision": "human_review_required",
+    "reasons": [
+      "高金额强制人工复核",
+      "人均超标"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-010": {
+    "decision": "human_review_required",
+    "reasons": [
+      "预算余额不足"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-011": {
+    "decision": "human_review_required",
+    "reasons": [
+      "OCR 置信度低"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-012": {
+    "decision": "human_review_required",
+    "reasons": [
+      "跨城团建有 VP 审批但金额超 5000"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-013": {
+    "decision": "suggested_pass",
+    "reasons": [],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-014": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "跨城团建缺少 VP 审批"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-015": {
+    "decision": "human_review_required",
+    "reasons": [
+      "高金额强制人工复核",
+      "人均超标"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-016": {
+    "decision": "human_review_required",
+    "reasons": [
+      "预算余额不足"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-017": {
+    "decision": "human_review_required",
+    "reasons": [
+      "OCR 置信度低"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-018": {
+    "decision": "human_review_required",
+    "reasons": [
+      "跨城团建有 VP 审批但金额超 5000"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-019": {
+    "decision": "suggested_pass",
+    "reasons": [],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  },
+  "EXP-TEAM-BUILDING-020": {
+    "decision": "suggested_reject",
+    "reasons": [
+      "跨城团建缺少 VP 审批"
+    ],
+    "policy_ids": [
+      "TEAM-3.1",
+      "TEAM-3.2.1",
+      "TEAM-3.4"
+    ]
+  }
+}

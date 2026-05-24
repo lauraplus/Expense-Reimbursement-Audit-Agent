@@ -1,0 +1,437 @@
+[
+  {
+    "expense_id": "EXP-TEAM-BUILDING-001",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 7200,
+    "currency": "CNY",
+    "expense_date": "2026-05-02",
+    "city": "北京",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "北京",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_7200",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": []
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-002",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 8500,
+    "currency": "CNY",
+    "expense_date": "2026-05-03",
+    "city": "三亚",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "三亚",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_8500",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "跨城团建缺少 VP 审批"
+    ]
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-003",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 10800,
+    "currency": "CNY",
+    "expense_date": "2026-05-04",
+    "city": "杭州",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "杭州",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_10800",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "高金额强制人工复核",
+      "人均超标"
+    ]
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-004",
+    "employee_id": "E1003",
+    "category": "team_building",
+    "amount_claimed": 9000,
+    "currency": "CNY",
+    "expense_date": "2026-05-05",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "北京",
+      "participants_count": 18,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_budget_9000",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "预算余额不足"
+    ]
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-005",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 6000,
+    "currency": "CNY",
+    "expense_date": "2026-05-06",
+    "city": "北京",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "北京",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_low_conf",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "OCR 置信度低"
+    ]
+  },
+  {
+    "expense_id": "EXP-TEAM-006",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 8500,
+    "currency": "CNY",
+    "expense_date": "2026-05-07",
+    "city": "三亚",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "三亚",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_8500",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "跨城团建有 VP 审批但金额超 5000"
+    ]
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-007",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 7200,
+    "currency": "CNY",
+    "expense_date": "2026-05-08",
+    "city": "北京",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "北京",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_7200",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": []
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-008",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 8500,
+    "currency": "CNY",
+    "expense_date": "2026-05-09",
+    "city": "三亚",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "三亚",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_8500",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "跨城团建缺少 VP 审批"
+    ]
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-009",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 10800,
+    "currency": "CNY",
+    "expense_date": "2026-05-10",
+    "city": "杭州",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "杭州",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_10800",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "高金额强制人工复核",
+      "人均超标"
+    ]
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-010",
+    "employee_id": "E1003",
+    "category": "team_building",
+    "amount_claimed": 9000,
+    "currency": "CNY",
+    "expense_date": "2026-05-11",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "北京",
+      "participants_count": 18,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_budget_9000",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "预算余额不足"
+    ]
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-011",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 6000,
+    "currency": "CNY",
+    "expense_date": "2026-05-12",
+    "city": "北京",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "北京",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_low_conf",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "OCR 置信度低"
+    ]
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-012",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 8500,
+    "currency": "CNY",
+    "expense_date": "2026-05-13",
+    "city": "三亚",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "三亚",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_8500",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "跨城团建有 VP 审批但金额超 5000"
+    ]
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-013",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 7200,
+    "currency": "CNY",
+    "expense_date": "2026-05-14",
+    "city": "北京",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "北京",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_7200",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": []
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-014",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 8500,
+    "currency": "CNY",
+    "expense_date": "2026-05-15",
+    "city": "三亚",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "三亚",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_8500",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "跨城团建缺少 VP 审批"
+    ]
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-015",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 10800,
+    "currency": "CNY",
+    "expense_date": "2026-05-16",
+    "city": "杭州",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "杭州",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_10800",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "高金额强制人工复核",
+      "人均超标"
+    ]
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-016",
+    "employee_id": "E1003",
+    "category": "team_building",
+    "amount_claimed": 9000,
+    "currency": "CNY",
+    "expense_date": "2026-05-17",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "北京",
+      "participants_count": 18,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_budget_9000",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "预算余额不足"
+    ]
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-017",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 6000,
+    "currency": "CNY",
+    "expense_date": "2026-05-18",
+    "city": "北京",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "北京",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_low_conf",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "OCR 置信度低"
+    ]
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-018",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 8500,
+    "currency": "CNY",
+    "expense_date": "2026-05-19",
+    "city": "三亚",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "三亚",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_8500",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "跨城团建有 VP 审批但金额超 5000"
+    ]
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-019",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 7200,
+    "currency": "CNY",
+    "expense_date": "2026-05-20",
+    "city": "北京",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "北京",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_7200",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": []
+  },
+  {
+    "expense_id": "EXP-TEAM-BUILDING-020",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount_claimed": 8500,
+    "currency": "CNY",
+    "expense_date": "2026-05-21",
+    "city": "三亚",
+    "team_id": "T-PROD-A",
+    "title": "团队团建",
+    "form_data": {
+      "title": "团队团建",
+      "activity_city": "三亚",
+      "participants_count": 12,
+      "activity_date": "2026-05-20"
+    },
+    "attachment_fixture_id": "receipt_team_8500",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "跨城团建缺少 VP 审批"
+    ]
+  }
+]

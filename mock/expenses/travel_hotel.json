@@ -1,0 +1,432 @@
+[
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-001",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 500,
+    "currency": "CNY",
+    "expense_date": "2026-05-02",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_500",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": []
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-002",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 500,
+    "currency": "CNY",
+    "expense_date": "2026-05-03",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_550",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "申报金额与账单金额不一致",
+      "P5 住宿超标"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-003",
+    "employee_id": "E1005",
+    "category": "travel_hotel",
+    "amount_claimed": 650,
+    "currency": "CNY",
+    "expense_date": "2026-05-04",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_650",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": []
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-004",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 780,
+    "currency": "CNY",
+    "expense_date": "2026-05-05",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_780",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "超标超过 20%"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-005",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 500,
+    "currency": "CNY",
+    "expense_date": "2026-05-06",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_low_conf",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "OCR 置信度低"
+    ]
+  },
+  {
+    "expense_id": "EXP-HOTEL-006",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 550,
+    "currency": "CNY",
+    "expense_date": "2026-05-07",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_550",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": [
+      "小幅超标有主管审批"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-007",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 500,
+    "currency": "CNY",
+    "expense_date": "2026-05-08",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_500",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": []
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-008",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 500,
+    "currency": "CNY",
+    "expense_date": "2026-05-09",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_550",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "申报金额与账单金额不一致",
+      "P5 住宿超标"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-009",
+    "employee_id": "E1005",
+    "category": "travel_hotel",
+    "amount_claimed": 650,
+    "currency": "CNY",
+    "expense_date": "2026-05-10",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_650",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": []
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-010",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 780,
+    "currency": "CNY",
+    "expense_date": "2026-05-11",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_780",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "超标超过 20%"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-011",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 500,
+    "currency": "CNY",
+    "expense_date": "2026-05-12",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_low_conf",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "OCR 置信度低"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-012",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 550,
+    "currency": "CNY",
+    "expense_date": "2026-05-13",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_550",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": [
+      "小幅超标有主管审批"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-013",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 500,
+    "currency": "CNY",
+    "expense_date": "2026-05-14",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_500",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": []
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-014",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 500,
+    "currency": "CNY",
+    "expense_date": "2026-05-15",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_550",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "申报金额与账单金额不一致",
+      "P5 住宿超标"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-015",
+    "employee_id": "E1005",
+    "category": "travel_hotel",
+    "amount_claimed": 650,
+    "currency": "CNY",
+    "expense_date": "2026-05-16",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_650",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": []
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-016",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 780,
+    "currency": "CNY",
+    "expense_date": "2026-05-17",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_780",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "超标超过 20%"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-017",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 500,
+    "currency": "CNY",
+    "expense_date": "2026-05-18",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_low_conf",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "OCR 置信度低"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-018",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 550,
+    "currency": "CNY",
+    "expense_date": "2026-05-19",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_550",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": [
+      "小幅超标有主管审批"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-019",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 500,
+    "currency": "CNY",
+    "expense_date": "2026-05-20",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_500",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": []
+  },
+  {
+    "expense_id": "EXP-TRAVEL-HOTEL-020",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount_claimed": 500,
+    "currency": "CNY",
+    "expense_date": "2026-05-21",
+    "city": "杭州",
+    "team_id": "T-SALES-HZ",
+    "title": "差旅住宿",
+    "form_data": {
+      "title": "差旅住宿",
+      "hotel_city": "杭州",
+      "check_in": "2026-05-14",
+      "check_out": "2026-05-15"
+    },
+    "attachment_fixture_id": "receipt_hotel_hz_550",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "申报金额与账单金额不一致",
+      "P5 住宿超标"
+    ]
+  }
+]

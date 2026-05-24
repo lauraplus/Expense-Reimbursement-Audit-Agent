@@ -1,0 +1,38 @@
+[
+  {
+    "budget_id": "B-PROD-A-TEAM-2026",
+    "team_id": "T-PROD-A",
+    "category": "team_building",
+    "period": "2026",
+    "annual_budget": 50000,
+    "used_amount": 32000,
+    "frozen_amount": 0
+  },
+  {
+    "budget_id": "B-RD-A-TEAM-2026",
+    "team_id": "T-RD-A",
+    "category": "team_building",
+    "period": "2026",
+    "annual_budget": 72000,
+    "used_amount": 66400,
+    "frozen_amount": 0
+  },
+  {
+    "budget_id": "B-SALES-HZ-TEAM-2026",
+    "team_id": "T-SALES-HZ",
+    "category": "team_building",
+    "period": "2026",
+    "annual_budget": 42000,
+    "used_amount": 20000,
+    "frozen_amount": 0
+  },
+  {
+    "budget_id": "B-HR-BJ-TEAM-2026",
+    "team_id": "T-HR-BJ",
+    "category": "team_building",
+    "period": "2026",
+    "annual_budget": 32000,
+    "used_amount": 12000,
+    "frozen_amount": 0
+  }
+]

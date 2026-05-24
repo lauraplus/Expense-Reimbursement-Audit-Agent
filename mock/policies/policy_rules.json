@@ -1,0 +1,87 @@
+[
+  {
+    "rule_id": "R-TRAFFIC-TIME",
+    "category": "traffic_overtime_taxi",
+    "policy_id": "TRAFFIC-2.1",
+    "field": "ride_time",
+    "operator": "after_or_equal",
+    "value": "21:00",
+    "severity": "medium"
+  },
+  {
+    "rule_id": "R-TRAFFIC-RIDE-TYPE",
+    "category": "traffic_overtime_taxi",
+    "policy_id": "TRAFFIC-2.3",
+    "field": "ride_type",
+    "allowed_values": [
+      "快车",
+      "拼车",
+      "出租车"
+    ],
+    "exception_approval": "department_manager",
+    "severity": "high"
+  },
+  {
+    "rule_id": "R-TRAFFIC-AMOUNT",
+    "category": "traffic_overtime_taxi",
+    "policy_id": "TRAFFIC-2.5",
+    "field": "actual_amount",
+    "operator": "equals_claimed",
+    "severity": "high"
+  },
+  {
+    "rule_id": "R-HOTEL-P5-NEW-TIER",
+    "category": "travel_hotel",
+    "policy_id": "HOTEL-6.2",
+    "city": "杭州",
+    "employee_level_max": "P5",
+    "limit_amount": 500,
+    "unit": "CNY/night",
+    "severity": "high"
+  },
+  {
+    "rule_id": "R-HOTEL-P6-NEW-TIER",
+    "category": "travel_hotel",
+    "policy_id": "HOTEL-6.2",
+    "city": "杭州",
+    "employee_level_min": "P6",
+    "employee_level_max": "P7",
+    "limit_amount": 650,
+    "unit": "CNY/night",
+    "severity": "medium"
+  },
+  {
+    "rule_id": "R-HOTEL-AMOUNT",
+    "category": "travel_hotel",
+    "policy_id": "HOTEL-6.5",
+    "field": "total_amount",
+    "operator": "equals_claimed",
+    "severity": "high"
+  },
+  {
+    "rule_id": "R-TEAM-PER-CAPITA",
+    "category": "team_building",
+    "policy_id": "TEAM-3.1",
+    "field": "per_capita_amount",
+    "operator": "less_or_equal",
+    "value": 800,
+    "severity": "medium"
+  },
+  {
+    "rule_id": "R-TEAM-CROSS-CITY",
+    "category": "team_building",
+    "policy_id": "TEAM-3.2.1",
+    "field": "activity_city",
+    "operator": "same_as_base_city",
+    "exception_approval": "vp",
+    "severity": "high"
+  },
+  {
+    "rule_id": "R-TEAM-BUDGET",
+    "category": "team_building",
+    "policy_id": "TEAM-3.1",
+    "field": "budget_remaining",
+    "operator": "greater_or_equal_claimed",
+    "severity": "high"
+  }
+]

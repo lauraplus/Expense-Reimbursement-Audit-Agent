@@ -1,0 +1,26 @@
+[
+  {
+    "claim_id": "H-001",
+    "employee_id": "E1003",
+    "category": "traffic_overtime_taxi",
+    "amount": 62,
+    "expense_date": "2026-05-02",
+    "fingerprint": "taxi-E1003-20260502-62"
+  },
+  {
+    "claim_id": "H-002",
+    "employee_id": "E1004",
+    "category": "travel_hotel",
+    "amount": 500,
+    "expense_date": "2026-04-12",
+    "fingerprint": "hotel-E1004-hangzhou-20260412"
+  },
+  {
+    "claim_id": "H-003",
+    "employee_id": "E1001",
+    "category": "team_building",
+    "amount": 8200,
+    "expense_date": "2026-03-18",
+    "fingerprint": "team-T-PROD-A-20260318"
+  }
+]

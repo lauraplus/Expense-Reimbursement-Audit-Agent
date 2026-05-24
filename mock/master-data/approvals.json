@@ -1,0 +1,42 @@
+[
+  {
+    "approval_id": "APR-001",
+    "expense_id": "EXP-TRAFFIC-006",
+    "employee_id": "E1003",
+    "team_id": "T-RD-A",
+    "approval_type": "department_manager",
+    "approver_id": "E9002",
+    "approved_at": "2026-05-20T20:10:00",
+    "summary": "项目上线当日允许专车回家"
+  },
+  {
+    "approval_id": "APR-002",
+    "expense_id": "EXP-HOTEL-006",
+    "employee_id": "E1004",
+    "team_id": "T-SALES-HZ",
+    "approval_type": "department_manager",
+    "approver_id": "E9003",
+    "approved_at": "2026-05-16T09:30:00",
+    "summary": "展会期间酒店价格上涨，允许小幅超标"
+  },
+  {
+    "approval_id": "APR-003",
+    "expense_id": "EXP-TEAM-006",
+    "employee_id": "E1001",
+    "team_id": "T-PROD-A",
+    "approval_type": "vp",
+    "approver_id": "E9901",
+    "approved_at": "2026-05-18T11:00:00",
+    "summary": "产品部跨城团建已提前审批"
+  },
+  {
+    "approval_id": "APR-004",
+    "expense_id": "EXP-HOTEL-014",
+    "employee_id": "E1005",
+    "team_id": "T-SALES-HZ",
+    "approval_type": "vp",
+    "approver_id": "E9903",
+    "approved_at": "2026-04-22T14:20:00",
+    "summary": "高峰期客户会议酒店超标审批"
+  }
+]

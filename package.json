@@ -1,0 +1,10 @@
+{
+  "name": "expense-review-agent-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "mock": "node -e \"console.log('Use the bundled Python command in README to generate mock data.')\"",
+    "frontend:dev": "npm.cmd --prefix frontend run dev",
+    "frontend:build": "npm.cmd --prefix frontend run build"
+  }
+}

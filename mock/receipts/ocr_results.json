@@ -1,0 +1,212 @@
+{
+  "receipt_taxi_fast_68": {
+    "fixture_id": "receipt_taxi_fast_68",
+    "category": "traffic_overtime_taxi",
+    "image_path": "mock/receipts/images/receipt_taxi_fast_68.svg",
+    "raw_text": "出发地：望京SOHO\n目的地：天通苑\n车型：快车\n支付金额：68.00 元\n打车时间：22:30",
+    "normalized": {
+      "from_location": "望京SOHO",
+      "to_location": "天通苑",
+      "ride_type": "快车",
+      "actual_amount": 68,
+      "ride_time": "22:30",
+      "confidence": 0.96
+    },
+    "provider": "mock_fixture"
+  },
+  "receipt_taxi_premium_68": {
+    "fixture_id": "receipt_taxi_premium_68",
+    "category": "traffic_overtime_taxi",
+    "image_path": "mock/receipts/images/receipt_taxi_premium_68.svg",
+    "raw_text": "出发地：望京SOHO\n目的地：天通苑\n车型：专车\n支付金额：68.00 元\n打车时间：22:30",
+    "normalized": {
+      "from_location": "望京SOHO",
+      "to_location": "天通苑",
+      "ride_type": "专车",
+      "actual_amount": 68,
+      "ride_time": "22:30",
+      "confidence": 0.95
+    },
+    "provider": "mock_fixture"
+  },
+  "receipt_taxi_early_52": {
+    "fixture_id": "receipt_taxi_early_52",
+    "category": "traffic_overtime_taxi",
+    "image_path": "mock/receipts/images/receipt_taxi_early_52.svg",
+    "raw_text": "出发地：中关村\n目的地：回龙观\n车型：快车\n支付金额：52.00 元\n打车时间：20:15",
+    "normalized": {
+      "from_location": "中关村",
+      "to_location": "回龙观",
+      "ride_type": "快车",
+      "actual_amount": 52,
+      "ride_time": "20:15",
+      "confidence": 0.94
+    },
+    "provider": "mock_fixture"
+  },
+  "receipt_taxi_mismatch_88": {
+    "fixture_id": "receipt_taxi_mismatch_88",
+    "category": "traffic_overtime_taxi",
+    "image_path": "mock/receipts/images/receipt_taxi_mismatch_88.svg",
+    "raw_text": "出发地：望京SOHO\n目的地：通州北苑\n车型：快车\n支付金额：88.00 元\n打车时间：22:05",
+    "normalized": {
+      "from_location": "望京SOHO",
+      "to_location": "通州北苑",
+      "ride_type": "快车",
+      "actual_amount": 88,
+      "ride_time": "22:05",
+      "confidence": 0.97
+    },
+    "provider": "mock_fixture"
+  },
+  "receipt_taxi_low_conf": {
+    "fixture_id": "receipt_taxi_low_conf",
+    "category": "traffic_overtime_taxi",
+    "image_path": "mock/receipts/images/receipt_taxi_low_conf.svg",
+    "raw_text": "出发地：识别不清\n目的地：识别不清\n车型：快车\n支付金额：64.00 元\n打车时间：22:10",
+    "normalized": {
+      "from_location": null,
+      "to_location": null,
+      "ride_type": "快车",
+      "actual_amount": 64,
+      "ride_time": "22:10",
+      "confidence": 0.62
+    },
+    "provider": "mock_fixture"
+  },
+  "receipt_hotel_hz_500": {
+    "fixture_id": "receipt_hotel_hz_500",
+    "category": "travel_hotel",
+    "image_path": "mock/receipts/images/receipt_hotel_hz_500.svg",
+    "raw_text": "酒店：杭州云栖酒店\n房费：500.00 元/晚\n入住：1 晚\n总额：500.00 元",
+    "normalized": {
+      "hotel_name": "杭州云栖酒店",
+      "room_rate": 500,
+      "nights": 1,
+      "total_amount": 500,
+      "confidence": 0.96
+    },
+    "provider": "mock_fixture"
+  },
+  "receipt_hotel_hz_550": {
+    "fixture_id": "receipt_hotel_hz_550",
+    "category": "travel_hotel",
+    "image_path": "mock/receipts/images/receipt_hotel_hz_550.svg",
+    "raw_text": "酒店：杭州星河酒店\n房费：550.00 元/晚\n入住：1 晚\n总额：550.00 元",
+    "normalized": {
+      "hotel_name": "杭州星河酒店",
+      "room_rate": 550,
+      "nights": 1,
+      "total_amount": 550,
+      "confidence": 0.97
+    },
+    "provider": "mock_fixture"
+  },
+  "receipt_hotel_hz_650": {
+    "fixture_id": "receipt_hotel_hz_650",
+    "category": "travel_hotel",
+    "image_path": "mock/receipts/images/receipt_hotel_hz_650.svg",
+    "raw_text": "酒店：杭州国际酒店\n房费：650.00 元/晚\n入住：1 晚\n总额：650.00 元",
+    "normalized": {
+      "hotel_name": "杭州国际酒店",
+      "room_rate": 650,
+      "nights": 1,
+      "total_amount": 650,
+      "confidence": 0.94
+    },
+    "provider": "mock_fixture"
+  },
+  "receipt_hotel_hz_780": {
+    "fixture_id": "receipt_hotel_hz_780",
+    "category": "travel_hotel",
+    "image_path": "mock/receipts/images/receipt_hotel_hz_780.svg",
+    "raw_text": "酒店：杭州会展中心酒店\n房费：780.00 元/晚\n入住：1 晚\n总额：780.00 元",
+    "normalized": {
+      "hotel_name": "杭州会展中心酒店",
+      "room_rate": 780,
+      "nights": 1,
+      "total_amount": 780,
+      "confidence": 0.94
+    },
+    "provider": "mock_fixture"
+  },
+  "receipt_hotel_low_conf": {
+    "fixture_id": "receipt_hotel_low_conf",
+    "category": "travel_hotel",
+    "image_path": "mock/receipts/images/receipt_hotel_low_conf.svg",
+    "raw_text": "酒店：识别不清\n房费：? 元/晚\n入住：1 晚\n总额：500.00 元",
+    "normalized": {
+      "hotel_name": null,
+      "room_rate": null,
+      "nights": 1,
+      "total_amount": 500,
+      "confidence": 0.58
+    },
+    "provider": "mock_fixture"
+  },
+  "receipt_team_8500": {
+    "fixture_id": "receipt_team_8500",
+    "category": "team_building",
+    "image_path": "mock/receipts/images/receipt_team_8500.svg",
+    "raw_text": "商户：三亚海岸餐厅\n项目：团队活动餐饮\n人数：12 人\n金额：8500.00 元",
+    "normalized": {
+      "merchant": "三亚海岸餐厅",
+      "participants_count": 12,
+      "total_amount": 8500,
+      "confidence": 0.93
+    },
+    "provider": "mock_fixture"
+  },
+  "receipt_team_7200": {
+    "fixture_id": "receipt_team_7200",
+    "category": "team_building",
+    "image_path": "mock/receipts/images/receipt_team_7200.svg",
+    "raw_text": "商户：北京融合餐厅\n项目：团队聚餐\n人数：12 人\n金额：7200.00 元",
+    "normalized": {
+      "merchant": "北京融合餐厅",
+      "participants_count": 12,
+      "total_amount": 7200,
+      "confidence": 0.94
+    },
+    "provider": "mock_fixture"
+  },
+  "receipt_team_10800": {
+    "fixture_id": "receipt_team_10800",
+    "category": "team_building",
+    "image_path": "mock/receipts/images/receipt_team_10800.svg",
+    "raw_text": "商户：杭州湖滨餐厅\n项目：团队活动\n人数：10 人\n金额：10800.00 元",
+    "normalized": {
+      "merchant": "杭州湖滨餐厅",
+      "participants_count": 10,
+      "total_amount": 10800,
+      "confidence": 0.95
+    },
+    "provider": "mock_fixture"
+  },
+  "receipt_team_budget_9000": {
+    "fixture_id": "receipt_team_budget_9000",
+    "category": "team_building",
+    "image_path": "mock/receipts/images/receipt_team_budget_9000.svg",
+    "raw_text": "商户：北京创意厨房\n项目：团队活动\n人数：18 人\n金额：9000.00 元",
+    "normalized": {
+      "merchant": "北京创意厨房",
+      "participants_count": 18,
+      "total_amount": 9000,
+      "confidence": 0.95
+    },
+    "provider": "mock_fixture"
+  },
+  "receipt_team_low_conf": {
+    "fixture_id": "receipt_team_low_conf",
+    "category": "team_building",
+    "image_path": "mock/receipts/images/receipt_team_low_conf.svg",
+    "raw_text": "商户：识别不清\n项目：团队活动\n人数：? 人\n金额：6000.00 元",
+    "normalized": {
+      "merchant": null,
+      "participants_count": null,
+      "total_amount": 6000,
+      "confidence": 0.55
+    },
+    "provider": "mock_fixture"
+  }
+}

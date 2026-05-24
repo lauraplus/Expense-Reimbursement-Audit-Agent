@@ -1,0 +1,47 @@
+[
+  {
+    "team_id": "T-PROD-A",
+    "team_name": "产品部 A 组",
+    "department_id": "D-PRODUCT",
+    "base_city": "北京",
+    "base_location": "北京望京",
+    "team_size": 12,
+    "owner_id": "E9001"
+  },
+  {
+    "team_id": "T-RD-A",
+    "team_name": "研发部 A 组",
+    "department_id": "D-RD",
+    "base_city": "北京",
+    "base_location": "北京中关村",
+    "team_size": 18,
+    "owner_id": "E9002"
+  },
+  {
+    "team_id": "T-SALES-HZ",
+    "team_name": "销售杭州组",
+    "department_id": "D-SALES",
+    "base_city": "杭州",
+    "base_location": "杭州滨江",
+    "team_size": 10,
+    "owner_id": "E9003"
+  },
+  {
+    "team_id": "T-HR-BJ",
+    "team_name": "人力北京组",
+    "department_id": "D-HR",
+    "base_city": "北京",
+    "base_location": "北京望京",
+    "team_size": 8,
+    "owner_id": "E9004"
+  },
+  {
+    "team_id": "T-FIN-BJ",
+    "team_name": "财务北京组",
+    "department_id": "D-FIN",
+    "base_city": "北京",
+    "base_location": "北京望京",
+    "team_size": 9,
+    "owner_id": "E9005"
+  }
+]

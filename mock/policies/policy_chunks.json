@@ -1,0 +1,83 @@
+[
+  {
+    "policy_id": "TRAFFIC-2.1",
+    "version": "2026.01",
+    "category": "traffic_overtime_taxi",
+    "title": "加班打车时间要求",
+    "text": "员工因工作需要在 21:00 后离开办公地，可申请加班打车报销。21:00 前产生的通勤费用原则上不予报销，特殊情况需直属主管审批。",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "policy_id": "TRAFFIC-2.3",
+    "version": "2026.01",
+    "category": "traffic_overtime_taxi",
+    "title": "加班打车车型标准",
+    "text": "加班打车报销仅限快车、拼车、出租车。专车、商务车等高等级车型需附部门主管审批记录。",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "policy_id": "TRAFFIC-2.5",
+    "version": "2026.01",
+    "category": "traffic_overtime_taxi",
+    "title": "交通票据金额一致性",
+    "text": "员工申报金额应与打车凭证实际支付金额一致；金额不一致时，应退回补充说明或转人工复核。",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "policy_id": "HOTEL-6.2",
+    "version": "2026.01",
+    "category": "travel_hotel",
+    "title": "住宿城市与职级标准",
+    "text": "杭州、成都、南京、武汉等新一线城市，P5 及以下员工住宿标准上限为 500 元/晚，P6-P7 上限为 650 元/晚，P8 及以上上限为 800 元/晚。",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "policy_id": "HOTEL-6.4",
+    "version": "2026.01",
+    "category": "travel_hotel",
+    "title": "住宿超标审批",
+    "text": "因会议、展会、旺季等原因导致住宿超标的，应在报销时附直属主管审批；超标超过 20% 的，还需部门 VP 审批。",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "policy_id": "HOTEL-6.5",
+    "version": "2026.01",
+    "category": "travel_hotel",
+    "title": "住宿账单一致性",
+    "text": "住宿报销单填写金额、入住天数和酒店账单应一致。账单解析金额与申报金额不一致时，不得自动通过。",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "policy_id": "TEAM-3.1",
+    "version": "2026.01",
+    "category": "team_building",
+    "title": "团建预算与人均标准",
+    "text": "团队团建报销应在年度团建预算余额内，单次活动人均金额原则上不超过 800 元。",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "policy_id": "TEAM-3.2.1",
+    "version": "2026.01",
+    "category": "team_building",
+    "title": "跨城团建审批",
+    "text": "活动地点与团队 base 地不一致时，属于跨城团建。跨城团建需提前获得 VP 级审批，并在报销时附审批记录。",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  },
+  {
+    "policy_id": "TEAM-3.4",
+    "version": "2026.01",
+    "category": "team_building",
+    "title": "团建参与人数",
+    "text": "团建参与人数应与团队实际人数或活动签到记录匹配。参与人数异常时，应转人工复核。",
+    "effective_from": "2026-01-01",
+    "effective_to": null
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "employee_id": "E1001",
+    "employee_name": "张三",
+    "department_id": "D-PRODUCT",
+    "department_name": "产品部",
+    "team_id": "T-PROD-A",
+    "level": "P6",
+    "cost_center": "CC-PD-001",
+    "manager_id": "E9001",
+    "vp_id": "E9901"
+  },
+  {
+    "employee_id": "E1002",
+    "employee_name": "李四",
+    "department_id": "D-RD",
+    "department_name": "研发部",
+    "team_id": "T-RD-A",
+    "level": "P5",
+    "cost_center": "CC-RD-001",
+    "manager_id": "E9002",
+    "vp_id": "E9902"
+  },
+  {
+    "employee_id": "E1003",
+    "employee_name": "王五",
+    "department_id": "D-RD",
+    "department_name": "研发部",
+    "team_id": "T-RD-A",
+    "level": "P5",
+    "cost_center": "CC-RD-001",
+    "manager_id": "E9002",
+    "vp_id": "E9902"
+  },
+  {
+    "employee_id": "E1004",
+    "employee_name": "赵六",
+    "department_id": "D-SALES",
+    "department_name": "销售部",
+    "team_id": "T-SALES-HZ",
+    "level": "P5",
+    "cost_center": "CC-SL-001",
+    "manager_id": "E9003",
+    "vp_id": "E9903"
+  },
+  {
+    "employee_id": "E1005",
+    "employee_name": "钱七",
+    "department_id": "D-SALES",
+    "department_name": "销售部",
+    "team_id": "T-SALES-HZ",
+    "level": "P7",
+    "cost_center": "CC-SL-001",
+    "manager_id": "E9003",
+    "vp_id": "E9903"
+  },
+  {
+    "employee_id": "E1006",
+    "employee_name": "孙八",
+    "department_id": "D-HR",
+    "department_name": "人力资源部",
+    "team_id": "T-HR-BJ",
+    "level": "P6",
+    "cost_center": "CC-HR-001",
+    "manager_id": "E9004",
+    "vp_id": "E9904"
+  },
+  {
+    "employee_id": "E1007",
+    "employee_name": "周九",
+    "department_id": "D-PRODUCT",
+    "department_name": "产品部",
+    "team_id": "T-PROD-A",
+    "level": "P5",
+    "cost_center": "CC-PD-001",
+    "manager_id": "E9001",
+    "vp_id": "E9901"
+  },
+  {
+    "employee_id": "E1008",
+    "employee_name": "吴十",
+    "department_id": "D-FIN",
+    "department_name": "财务部",
+    "team_id": "T-FIN-BJ",
+    "level": "P6",
+    "cost_center": "CC-FN-001",
+    "manager_id": "E9005",
+    "vp_id": "E9905"
+  }
+]

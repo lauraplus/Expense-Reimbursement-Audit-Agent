@@ -1,0 +1,394 @@
+[
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-001",
+    "employee_id": "E1003",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 68,
+    "currency": "CNY",
+    "expense_date": "2026-05-02",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_fast_68",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": []
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-002",
+    "employee_id": "E1003",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 68,
+    "currency": "CNY",
+    "expense_date": "2026-05-03",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_premium_68",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "专车缺少主管审批"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-003",
+    "employee_id": "E1002",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 52,
+    "currency": "CNY",
+    "expense_date": "2026-05-04",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_early_52",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "打车时间早于 21:00"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-004",
+    "employee_id": "E1003",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 68,
+    "currency": "CNY",
+    "expense_date": "2026-05-05",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_mismatch_88",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "申报金额与票据金额不一致"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-005",
+    "employee_id": "E1002",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 64,
+    "currency": "CNY",
+    "expense_date": "2026-05-06",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_low_conf",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "OCR 置信度低"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-006",
+    "employee_id": "E1003",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 68,
+    "currency": "CNY",
+    "expense_date": "2026-05-07",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_premium_68",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": [
+      "有主管审批"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-007",
+    "employee_id": "E1003",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 68,
+    "currency": "CNY",
+    "expense_date": "2026-05-08",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_fast_68",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": []
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-008",
+    "employee_id": "E1003",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 68,
+    "currency": "CNY",
+    "expense_date": "2026-05-09",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_premium_68",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "专车缺少主管审批"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-009",
+    "employee_id": "E1002",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 52,
+    "currency": "CNY",
+    "expense_date": "2026-05-10",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_early_52",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "打车时间早于 21:00"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-010",
+    "employee_id": "E1003",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 68,
+    "currency": "CNY",
+    "expense_date": "2026-05-11",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_mismatch_88",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "申报金额与票据金额不一致"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-011",
+    "employee_id": "E1002",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 64,
+    "currency": "CNY",
+    "expense_date": "2026-05-12",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_low_conf",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "OCR 置信度低"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-012",
+    "employee_id": "E1003",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 68,
+    "currency": "CNY",
+    "expense_date": "2026-05-13",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_premium_68",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": [
+      "有主管审批"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-013",
+    "employee_id": "E1003",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 68,
+    "currency": "CNY",
+    "expense_date": "2026-05-14",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_fast_68",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": []
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-014",
+    "employee_id": "E1003",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 68,
+    "currency": "CNY",
+    "expense_date": "2026-05-15",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_premium_68",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "专车缺少主管审批"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-015",
+    "employee_id": "E1002",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 52,
+    "currency": "CNY",
+    "expense_date": "2026-05-16",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_early_52",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "打车时间早于 21:00"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-016",
+    "employee_id": "E1003",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 68,
+    "currency": "CNY",
+    "expense_date": "2026-05-17",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_mismatch_88",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "申报金额与票据金额不一致"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-017",
+    "employee_id": "E1002",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 64,
+    "currency": "CNY",
+    "expense_date": "2026-05-18",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_low_conf",
+    "expected_decision": "human_review_required",
+    "expected_reasons": [
+      "OCR 置信度低"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-018",
+    "employee_id": "E1003",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 68,
+    "currency": "CNY",
+    "expense_date": "2026-05-19",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_premium_68",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": [
+      "有主管审批"
+    ]
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-019",
+    "employee_id": "E1003",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 68,
+    "currency": "CNY",
+    "expense_date": "2026-05-20",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_fast_68",
+    "expected_decision": "suggested_pass",
+    "expected_reasons": []
+  },
+  {
+    "expense_id": "EXP-TRAFFIC-OVERTIME-TAXI-020",
+    "employee_id": "E1003",
+    "category": "traffic_overtime_taxi",
+    "amount_claimed": 68,
+    "currency": "CNY",
+    "expense_date": "2026-05-21",
+    "city": "北京",
+    "team_id": "T-RD-A",
+    "title": "加班打车",
+    "form_data": {
+      "title": "加班打车",
+      "ride_reason": "项目上线支持"
+    },
+    "attachment_fixture_id": "receipt_taxi_premium_68",
+    "expected_decision": "suggested_reject",
+    "expected_reasons": [
+      "专车缺少主管审批"
+    ]
+  }
+]
