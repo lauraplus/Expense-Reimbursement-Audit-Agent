@@ -12,42 +12,6 @@
 4. **Skill 封装审核经验**：将交通、差旅住宿、团建三类高频报销审核要点封装为可维护的自然语言/结构化指引。
 5. **人机协同与审计**：Agent 输出建议通过、建议驳回或需人工复核；财务人员可确认或修正结果，系统留存工具证据、政策依据和反馈记录。
 
-## 安全说明
-
-OCR 凭证只通过环境变量读取，不写入代码、mock 数据或数据库：
-
-- `ALIBABA_CLOUD_ACCESS_KEY_ID`
-- `ALIBABA_CLOUD_ACCESS_KEY_SECRET`
-
-如果曾经在对话、文档或截图中暴露过真实密钥，建议在云控制台轮换。
-
-## 快速启动
-
-1. 生成 mock 数据：
-
-   ```powershell
-   & "C:\Users\frank\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" scripts\generate_mock_data.py
-   ```
-
-2. 安装后端依赖并启动：
-
-   ```powershell
-   & "C:\Users\frank\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" -m pip install -r backend\requirements.txt
-   & "C:\Users\frank\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" -m uvicorn backend.app.main:app --reload --port 8000
-   ```
-
-3. 安装前端依赖并启动：
-
-   ```powershell
-   cd frontend
-   npm.cmd install
-   npm.cmd run dev
-   ```
-
-4. 打开：
-
-   - 前端：http://localhost:3000
-   - 后端健康检查：http://localhost:8000/api/health
 
 ## 目录
 
